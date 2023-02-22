@@ -1,0 +1,82 @@
+t_number = 0
+print('Choose one of two numbers (1 or 2)')
+template = input()
+while template.isdigit() == False:
+  print( template + ' is not number! Try again!')
+  template = input()
+
+template = int(template)
+
+while template >2 or template ==0:
+  print('You enterd the wrong number, please try again! You need to choose one of two numbers (1 or 2)!')
+  template = int(input())
+t_number = template
+
+if t_number ==1:
+  print('Write a number')
+  number = input()
+  print('Write your favorite mode of trancportation')
+  mode_of_transportation = input()
+  print('Write a adjetive')
+  adjective = input()
+  print('Write one more adjetive')
+  adjective_2 = input()
+  print('Write a noun')
+  noun = input()
+  print('Write a color')
+  color = input()
+  print('Write part of the body')
+  part_of_the_body = input()
+  print('Write a verb')
+  verb = input()
+  print('Write one more number')
+  number_2 =input()
+  print('And one more noun')
+  noun_2 = input()
+  print('And one more noun')
+  noun_3 = input()
+  print('Now you shuld write a part of the body')
+  part_of_the_body_2 = input()
+  print('Now a noun')
+  noun_4 = input()
+  print('Now plese write a adjective')
+  adjective_3 = input()
+  print('And the last one, write a sikky_world')
+  silly_word = input()
+  print('Congrats! you did it, look what you got!')
+  print('It was about ' + number + ' month ago when I arrived at the hospital in a ' + mode_of_transportation  + '. The hospital is a/an ' + adjective + ' place, there are a lot of ' + adjective_2 + ' ' + noun +\
+        ' here. There are nurses here who have ' + color + ' ' + part_of_the_body + '. If someone wants to come into my room I told them that they have to ' + verb + ' first. I’ve decorated my room with ' + number_2 + ' ' + noun_2 +\
+        '. Today I talked to a doctor and they were wearing a ' + noun_3 + ' on their' + part_of_the_body_2 + '. I heard that all doctors ' + verb + ' ' + noun_4 + ' every day for breakfast. The most ' +\
+        adjective_3 + ' thing about being in the hospital is the '+ silly_word + ' '+ noun + '!')
+if t_number ==2:
+  print('Write a name')
+  name = input()
+  print('Write a noun')
+  noun = input()
+  print('Write a feeling')
+  feeling = input()
+  print('Now a verb')
+  verb = input()
+  print('Write one more feeling')
+  feeling_2 = input()
+  print('Write an animal')
+  animal = input()
+  print('Now a verb')
+  verb_2 = input()
+  print('Now you shuld write a color')
+  color = input()
+  print('Wtite a verb ending in ing')
+  verb_3 = input()
+  print('Write an adverb')
+  adverb = input()
+  print('Now plese write a number')
+  number = input()
+  print ('Write a sikky word')
+  silly_word = input()
+  print ('And one more noun')
+  noun_2 = input()
+  print('Congrats! you did it, look what you got!')
+  print('This weekend I am going camping with '+ name + '. I packed my lantern, sleeping bag, and ' + noun + '. I am so ' + feeling + ' to ' + verb +  ' in a tent. I am '+ feeling_2 + ' we might see a(n) ' +\
+        animal + ' , I hear they’re kind of dangerous. While we’re camping, we are going to hike, fish, and ' + verb_2 + '. I have heard that the ' + color + ' lake is great for '+ verb_3 + '. Then we will ' +\
+        adverb + ' hike through the forest for ' + number + 'metrs.If I see a ' + color + ' ' + animal + ' while hiking, I am going to bring it home as a pet! At night we will tell ' + number + silly_word +\
+        ' stories and roast ' + noun_2 + ' around the campfire!!')
